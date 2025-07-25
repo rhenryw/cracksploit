@@ -35,4 +35,4 @@ codesign --force --deep --sign - ~/Applications/MacSploit.app
 <br>
 Tada!
 
-####### or just buy MacSploit for $10 [here](https://www.raptor.fun/payments/products/lifetime)
+###### or just buy MacSploit for $10 [here](https://www.raptor.fun/payments/products/lifetime)
