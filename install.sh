@@ -2,7 +2,7 @@
 
 main() {
     clear
-    echo -e "Welcome to the MacSploit Experience!"
+    echo -e "Welcome to the M̶a̶c̶CrackSploit Experience!"
     echo -e "Install Script Version 2.7 - User Mode"
 
     echo -ne "Checking License..."
@@ -13,7 +13,6 @@ main() {
     chmod +x ./hwid
     
     local user_hwid=$(./hwid)
-    # Spoof the hwid_info response
     local hwid_info='{"success": true, "free_trial": false}'
     local hwid_resp=$(echo $hwid_info | ./jq -r ".success")
     rm ./hwid
@@ -25,7 +24,6 @@ main() {
 
         echo -n "Contacting Secure Api... "
         
-        # Spoof the license validation response
         local resp='Key Activation Complete!'
         echo -e "Done.\n$resp"
     else
@@ -39,7 +37,6 @@ main() {
             then
                 echo -n "Contacting Secure Api... "
                 
-                # Spoof the license validation response for free trial
                 local resp='Key Activation Complete!'
                 echo -e "Done.\n$resp"
             fi
