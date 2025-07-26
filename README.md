@@ -22,7 +22,9 @@ add the following in between the `<dict>` and `</dict>` blocks
 
 ```xml
 <key>NSMicrophoneUsageDescription</key>
-<string>HackSploit requires microphone access for voice chat</string>
+<string>CrackSploit requires microphone access for voice chat</string>
+<key>NSCameraUsageDescription</key>
+<string>CrackSploit needs access to your camera for beta features.</string>
 ```
 <br>
 <br>
